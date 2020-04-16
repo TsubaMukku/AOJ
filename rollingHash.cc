@@ -28,11 +28,11 @@ vector<ll> rollingHash(string s, string t){
     
     // sの最初のTL文字に関するハッシュ値を計算する
     ull sH = 0;
-    for (int i = 0; i < TL; i++) sH = sH * b + s[i];
+    for (int i = 0; i < TL; i++) sH = sH * b + s[i];　// ??????? 暗黙的な型変換かな？？？
     
     // tの最初のTL文字に関するハッシュ値を計算する
     ull tH = 0;
-    for (int i = 0; i < TL; i++) tH = tH * b + t[i];
+    for (int i = 0; i < TL; i++) tH = tH * b + t[i]; // ??????? 暗黙的な型変換かな？？？
 
     // sの始点を1つずつ進めながらハッシュ値をチェック
     for (int i = 0; i +TL <= SL; i++){ 
