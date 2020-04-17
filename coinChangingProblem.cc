@@ -47,7 +47,7 @@ Sample Input 2
 
 */
 
-// 上記の内容を踏まえて, 以下に, 実装例を示します:
+// 上記の内容を踏まえて, 以下に, C++での実装例を示します:
 
 #include <iostream>
 #include <algorithm>
